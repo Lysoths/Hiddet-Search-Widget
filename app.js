@@ -9,7 +9,7 @@ container.addEventListener("click", () => {
     containerInput.classList.remove("container-active");
     input.classList.remove("input-active");
     input.setAttribute("disabled", "disabled");
-    input.textContent = "";
+    input.value = " ";
     input.blur();
   } else {
     containerInput.classList.add("container-active");
